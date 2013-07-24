@@ -1,0 +1,7 @@
+{"type": "record", 
+ "name": "ElectricPowerUsage",
+ "fields": [ 
+ 	{"name": "addressCode", "type": "string"},
+ 	{"name": "power", "type": "double"}				
+ ]
+}
