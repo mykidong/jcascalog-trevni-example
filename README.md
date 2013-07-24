@@ -4,7 +4,7 @@ JCascalog Example with Trevni Data Format.
 
 ## Run Examples
 
-Make sure that the native lzop is installed on the machine,
+Make sure that the native lzop is installed on your hadoop cluster,
 for more details, please see https://github.com/twitter/hadoop-lzo.
 
 ### Write Trevni from Json
