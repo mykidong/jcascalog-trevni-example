@@ -71,7 +71,8 @@ hadoop fs -rmr trevni/specified-columns;
 
 
 ```
-hadoop jar target/trevni-playground-0.1.0-SNAPSHOT-hadoop-job.jar avro.trevni.playground.ReadSpecifedColumnsWithTrevniScheme \
+hadoop jar target/trevni-playground-0.1.0-SNAPSHOT-hadoop-job.jar \
+        avro.trevni.playground.ReadSpecifedColumnsWithTrevniScheme \
         trevni/out/*  trevni/specified-columns \
         /tmp/trevni/lib/trevni-playground-0.1.0-SNAPSHOT-hadoop-job.jar snappy;
 ```
