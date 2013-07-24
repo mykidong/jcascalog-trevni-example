@@ -4,6 +4,9 @@ JCascalog Example with Trevni Data Format.
 
 ## Run Examples
 
+Make sure that the native lzop is installed on the machine,
+for more details, please see https://github.com/twitter/hadoop-lzo.
+
 ### Write Trevni from Json
 This example M/R Job output produces trevni data from the input json data.
 
@@ -61,6 +64,11 @@ Edit the namenode and jobtracker configuration in avro.trevni.playground.ReadSpe
 ```
    
 To run this M/R Job:
+
+```
+hadoop fs -rmr trevni/specified-columns;
+```
+
 
 ```
 hadoop jar target/trevni-playground-0.1.0-SNAPSHOT-hadoop-job.jar avro.trevni.playground.ReadSpecifedColumnsWithTrevniScheme \
