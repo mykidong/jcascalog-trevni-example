@@ -1,6 +1,6 @@
 # jcascalog-trevni-example
 
-JCascalog Example with Trevni Data Format.
+JCascalog Example with [Trevni](http://avro.apache.org/docs/current/trevni/spec.html) Data Format.
 
 ## Run Examples
 
